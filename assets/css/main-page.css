@@ -1,0 +1,20 @@
+.content h1.title {
+   margin-bottom: 1.5rem;
+}
+
+.pokeball-icon {
+   width: 250px;
+   position: absolute;
+   top: -5.3rem;
+   left: 60%;
+   opacity: 0.3;
+   transform: rotate(-20deg);
+}
+
+@media screen and (min-width: 992px) {
+   .pokeball-icon {
+      width: 350px;
+      top: -8rem;
+      left: 75%;
+    }
+}
